@@ -38,8 +38,7 @@
     height: 75px;
     background-color: green;
     border: 1px solid blue;
-    color: white;
-    
+    color: white;   
 }
 
  .col-xs-1 { width: calc((100% / 12) * 1);max-width: calc((100% / 12) * 1);}
