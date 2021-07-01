@@ -11,6 +11,7 @@
  }
  
 .row {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -33,12 +34,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    max-width: 100%;
     height: 75px;
     background-color: green;
     border: 1px solid blue;
     color: white;   
+    
 }
 
  .col-xs-1 { width: calc((100% / 12) * 1);max-width: calc((100% / 12) * 1);}
@@ -67,15 +67,4 @@
  .col-xs-offset-11 {margin-left: calc((100% / 12) * 11);}
  .col-xs-offset-12 {margin-left: calc((100% / 12) * 12);}
 
- .nested-col-xs-1 { width: calc((100% / 12) * 1);max-width: calc((100% / 12) * 1);}
- .nested-col-xs-2 { width: calc((100% / 12) * 2);max-width: calc((100% / 12) * 2);}
- .nested-col-xs-3 { width: calc((100% / 12) * 3);max-width: calc((100% / 12) * 3);}
- .nested-col-xs-4 { width: calc((100% / 12) * 4);max-width: calc((100% / 12) * 4);}
- .nested-col-xs-5 { width: calc((100% / 12) * 5);max-width: calc((100% / 12) * 5);}
- .nested-col-xs-6 { width: calc((100% / 12) * 6);max-width: calc((100% / 12) * 6);}
- .nested-col-xs-7 { width: calc((100% / 12) * 7);max-width: calc((100% / 12) * 7);}
- .nested-col-xs-8 { width: calc((100% / 12) * 8);max-width: calc((100% / 12) * 8);}
- .nested-col-xs-9 { width: calc((100% / 12) * 9);max-width: calc((100% / 12) * 9);}
- .nested-col-xs-10 { width: calc((100% / 12) * 10);max-width: calc((100% / 12) * 10);}
- .nested-col-xs-11 { width: calc((100% / 12) * 11);max-width: calc((100% / 12) * 11);}
- .nested-col-xs-12 { width: calc((100% / 12) * 12);max-width: calc((100% / 12) * 12);}
+ 
