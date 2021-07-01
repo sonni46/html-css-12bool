@@ -34,10 +34,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75px;
+    height: 80%;
     background-color: green;
     border: 1px solid blue;
-    color: white;   
+    color: white;
+    
     
 }
 
